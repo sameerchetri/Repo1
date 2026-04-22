@@ -1,0 +1,63 @@
+body{
+    background: rgb(37, 171, 44);
+}
+
+.Content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.Content img{
+    height: auto;          
+    width: 500px;
+    max-width: 100%;       
+    border: 4px solid;
+    border-radius: 6px;
+    
+}
+
+.Content h3
+{
+    width: 100%;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Content p
+{
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px)
+{
+    .Content
+    {
+        width: 100%;
+    }
+
+    .Content img{
+        width: 100%;      
+    }
+
+    .Content h3{
+        font-size: 30px;  
+    }
+
+    .Content p{
+        font-size: 18px;  
+    }
+}
+
+.Footer{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
